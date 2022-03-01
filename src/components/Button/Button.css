@@ -12,10 +12,15 @@
   margin-bottom: 8px;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: #125381;
 }
 
 .button:disabled {
   background-color: #15659d33;
+}
+
+.button:focus {
+  outline: 1px solid white;
 }

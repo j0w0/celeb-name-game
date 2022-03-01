@@ -12,6 +12,14 @@
 .header__button--back {
   position: absolute;
   left: 15px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  padding: 5px;
+}
+
+.header__button--back:focus {
+  outline: 1px solid white;
 }
 
 .header__logo {

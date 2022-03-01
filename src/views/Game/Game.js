@@ -132,8 +132,8 @@ const Game = ({
                 return (
                   <Employee
                     mode={mode}
-                    // headshot={emp.headshot.url}
-                    headshot={userIcon}
+                    headshot={emp.headshot.url}
+                    //headshot={userIcon}
                     index={idx}
                     matched={matched}
                     employeeMatch={employeeMatch}
@@ -146,7 +146,6 @@ const Game = ({
             </div>
 
             <Button
-              text={btnText}
               disabled={
                 mode === "timed" ?
                   (matched ? false : true) :
@@ -155,7 +154,9 @@ const Game = ({
               onClick={() => {
                 selectedEmployee !== null && btnClickHandler();
               }}
-            />
+            >
+              {btnText}
+            </Button>
           </>
         )}
       </div>

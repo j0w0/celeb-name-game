@@ -29,10 +29,9 @@ const End = ({
         </div>
 
         <div className="end__button--return">
-          <Button
-            text="Return to Home"
-            onClick={handleReturnToHome}
-          />
+          <Button onClick={handleReturnToHome}>
+            Return to Home
+          </Button>
         </div>
 
         <div className="end__scores">
