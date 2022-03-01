@@ -1,0 +1,21 @@
+.start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #223547;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.start__logo {
+  width: 100%;
+  max-width: 462px;
+}
+
+.start__intro {
+  font-size: 24px;
+  margin: 8vh 0;
+  text-align: center;
+}
