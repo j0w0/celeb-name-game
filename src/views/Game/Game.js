@@ -14,7 +14,6 @@ import Countdown from '../../components/Countdown/Countdown';
 const Game = () => {
   const {
     mode,
-    playing,
     employees, setEmployees,
     employeeMatch, setEmployeeMatch,
     selectedEmployee,
@@ -23,7 +22,6 @@ const Game = () => {
     setTimerRunning,
     matched,
     handleNextTurnClick,
-    handleReturnToHome,
     handleGameOverClick,
   } = useContext(GameContext);
 
