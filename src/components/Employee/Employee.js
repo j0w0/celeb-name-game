@@ -1,15 +1,15 @@
-import React from 'react'
+import { useContext } from 'react'
+import { GameContext } from '../../context/GameContext';
 import './Employee.css';
 
-const Employee = ({
-  mode,
-  headshot,
-  index,
-  matched,
-  employeeMatch,
-  selectedEmployee,
-  handleEmployeeClick
-}) => {
+const Employee = ({ headshot, index }) => {
+  const {
+    mode,
+    matched,
+    employeeMatch,
+    selectedEmployee,
+    handleEmployeeClick
+  } = useContext(GameContext);
   
   let employeeClass = `employee`;
   let iconClass = `employee__icon`;

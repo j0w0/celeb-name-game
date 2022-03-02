@@ -1,11 +1,14 @@
-import React from 'react'
+import { useContext } from 'react'
+import { GameContext } from '../../context/GameContext';
 import './Congrats.css';
 import face from '../../images/congrats-face.svg';
 import square from '../../images/congrats-square.svg';
 import star from '../../images/congrats-star.svg';
 import triangle from '../../images/congrats-triangle.svg';
 
-const Congrats = ({ total, correct }) => {
+const Congrats = () => {
+  const { total, correct } = useContext(GameContext);
+
   return (
     <div className="congrats">
       <div className="congrats__face">

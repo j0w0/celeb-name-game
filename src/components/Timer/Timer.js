@@ -1,7 +1,9 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useContext } from 'react'
+import { GameContext } from '../../context/GameContext';
 import './Timer.css'
 
-const Timer = ({ mode, timerRunning, timer, setTimer }) => {
+const Timer = () => {
+  const { mode, timer, setTimer, timerRunning } = useContext(GameContext);
 
   useEffect(() => {
     if(mode === "timed") {

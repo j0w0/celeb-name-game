@@ -1,16 +1,18 @@
-import React from 'react'
+import { useContext } from 'react'
+import { GameContext } from '../../context/GameContext';
 import './End.css';
 import Header from '../../components/Header/Header';
 import Button from '../../components/Button/Button';
 import Congrats from '../../components/Congrats/Congrats';
 
-const End = ({
-  mode,
-  total,
-  correct,
-  guessTimes,
-  handleReturnToHome
-}) => {
+const End = () => {
+  const {
+    mode,
+    total,
+    correct,
+    guessTimes,
+    handleReturnToHome
+  } = useContext(GameContext);
 
   const correctPercent = (correct / total) * 100 || 0;
   const incorrectTotal = total - correct;
@@ -25,7 +27,7 @@ const End = ({
 
       <div className="end">
         <div className="end__hero">
-          <Congrats total={total} correct={correct} />
+          <Congrats />
         </div>
 
         <div className="end__button--return">

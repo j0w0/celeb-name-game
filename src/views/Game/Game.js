@@ -1,4 +1,5 @@
-import React, { useEffect, useCallback } from 'react';
+import { useEffect, useCallback, useContext } from 'react';
+import { GameContext } from '../../context/GameContext';
 import './Game.css'
 import Header from '../../components/Header/Header';
 import Employee from '../../components/Employee/Employee';
@@ -10,22 +11,21 @@ import Timer from '../../components/Timer/Timer';
 import Countdown from '../../components/Countdown/Countdown';
 // const axios = require('axios');
 
-const Game = ({
-  mode,
-  playing,
-  employees, setEmployees,
-  employeeMatch, setEmployeeMatch,
-  selectedEmployee,
-  total,
-  correct,
-  timer, setTimer,
-  timerRunning, setTimerRunning,
-  matched,
-  handleEmployeeClick,
-  handleNextTurnClick,
-  handleReturnToHome,
-  handleGameOverClick,
-}) => {
+const Game = () => {
+  const {
+    mode,
+    playing,
+    employees, setEmployees,
+    employeeMatch, setEmployeeMatch,
+    selectedEmployee,
+    total,
+    correct,
+    setTimerRunning,
+    matched,
+    handleNextTurnClick,
+    handleReturnToHome,
+    handleGameOverClick,
+  } = useContext(GameContext);
 
   let btnText = `Continue`;
   let btnClickHandler = () => handleNextTurnClick();
@@ -67,7 +67,7 @@ const Game = ({
   useEffect(() => {
     if(!employees.length) {
       const randomEmpCount = 6;
-      // axios.get('https://namegame.willowtreeapps.com/api/v1.0/profiles') // headshots url
+      // axios.get('https://namegame.willowtreeapps.com/api/v1.0/profiles')
       getProfiles()
         .then(function (response) {
           // get random employees
@@ -96,10 +96,7 @@ const Game = ({
 
   return (
     <>
-      <Header
-        playing={playing}
-        handleReturnToHome={handleReturnToHome}
-      />
+      <Header />
 
       <div className="game container">
         {mode === "timed" && (
@@ -108,12 +105,7 @@ const Game = ({
               minutes={countdownMinutes}
               seconds={countdownSeconds}
             />
-            <Timer
-              mode={mode}
-              timerRunning={timerRunning}
-              timer={timer}
-              setTimer={setTimer}
-            />
+            <Timer />
           </div>
         )}
         
@@ -131,14 +123,9 @@ const Game = ({
               {employees && employees.map((emp, idx) => {
                 return (
                   <Employee
-                    mode={mode}
-                    headshot={emp.headshot.url}
-                    //headshot={userIcon}
+                    // headshot={emp.headshot.url}
+                    headshot={userIcon}
                     index={idx}
-                    matched={matched}
-                    employeeMatch={employeeMatch}
-                    selectedEmployee={selectedEmployee}
-                    handleEmployeeClick={handleEmployeeClick}
                     key={emp.id}
                   />
                 )

@@ -1,9 +1,12 @@
-import React from 'react'
+import { useContext } from 'react'
+import { GameContext } from '../../context/GameContext';
 import './Start.css'
 import logo from '../../images/logo-name-game.svg'
 import Button from '../../components/Button/Button'
 
-const Start = ({ handleStartGameClick }) => {
+const Start = () => {
+  const { handleStartGameClick } = useContext(GameContext);
+
   return (
     <div className="start">
       <img src={logo} className="start__logo" alt="Name Game" />

@@ -1,10 +1,13 @@
-import React from 'react'
+import { useContext } from 'react'
+import { GameContext } from '../../context/GameContext';
 import './Header.css'
 import logo from '../../images/logo-header.svg'
 import leftCaret from '../../images/icon-left-caret.svg'
 import Button from '../../components/Button/Button';
 
-const Header = ({ playing, handleReturnToHome }) => {
+const Header = () => {
+  const { playing, handleReturnToHome } = useContext(GameContext);
+
   return (
     <header className="header">
       {playing && (
