@@ -81,14 +81,7 @@ const Game = () => {
           if(!isCountdownRunning) startCountdown();
         });
     }    
-  }, [profiles,
-    setProfiles,
-    setProfileMatch,
-    getRandomProfile,
-    setTimerRunning,
-    isCountdownRunning,
-    startCountdown
-  ]);
+  }, [profiles]);
 
   return (
     <>
@@ -119,8 +112,8 @@ const Game = () => {
               {profiles && profiles.map((profile, idx) => {
                 return (
                   <Profile
-                    // headshot={profile.headshot}
-                    headshot={userIcon}
+                    headshot={profile.headshot ? profile.headshot : userIcon}
+                    //headshot={userIcon}
                     index={idx}
                     key={profile.id}
                   />
