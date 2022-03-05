@@ -16,18 +16,18 @@
   },
   {
     "id": 4,
-    "name": "Margaret Thatcher",
-    "headshot": "https://www.biography.com/.image/t_share/MTc2Njk4NDEwOTMyMzgxNjc1/margaret-thatcher_500x500_gettyimages-108932085.jpg"
+    "name": "Jodie Foster",
+    "headshot": "https://www.hollywoodreporter.com/wp-content/uploads/2021/02/GettyImages-530957098-H-2021-1613684237.jpg"
   },
   {
     "id": 5,
-    "name": "George Washington",
-    "headshot": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/1200px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
+    "name": "Quentin Tarantino",
+    "headshot": "https://www.indiewire.com/wp-content/uploads/2022/02/AP21292798830421.jpg"
   },
   {
     "id": 6,
-    "name": "Ghandi",
-    "headshot": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg"
+    "name": "Bette Midler",
+    "headshot": "https://cdn.jwa.org/sites/default/files/mediaobjects/bettemidler_-_1990.jpg"
   },
   {
     "id": 7,
@@ -91,8 +91,8 @@
   },
   {
     "id": 19,
-    "name": "Hugh Jackman",
-    "headshot": "https://static.wikia.nocookie.net/riseoftheguardians/images/6/6b/Hugh-Jackman.jpg"
+    "name": "Paul Rudd",
+    "headshot": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Paul_Rudd_2018.jpg/640px-Paul_Rudd_2018.jpg"
   },
   {
     "id": 20,
@@ -101,8 +101,8 @@
   },
   {
     "id": 21,
-    "name": "David Beckham",
-    "headshot": "https://upload.wikimedia.org/wikipedia/commons/0/0f/%C3%80lex_Roig_Mangues.jpg"
+    "name": "Jennifer Lopez",
+    "headshot": "https://cdn.britannica.com/35/157835-050-0CD3A8A5/Jennifer-Lopez-2010.jpg"
   },
   {
     "id": 22,
@@ -127,126 +127,126 @@
   {
     "id": 26,
     "name": "Kylie Minogue",
-    "headshot": ""
+    "headshot": "https://m.media-amazon.com/images/M/MV5BMTQwMDIxMTM4M15BMl5BanBnXkFtZTcwMTkzMDU2MQ@@._V1_UY1200_CR126,0,630,1200_AL_.jpg"
   },
   {
     "id": 27,
     "name": "Selena",
-    "headshot": ""
+    "headshot": "https://www.thewikifeed.com/wp-content/uploads/2021/04/selena-quintanilla-1.jpg"
   },
   {
     "id": 28,
     "name": "Brad Pitt",
-    "headshot": ""
+    "headshot": "https://media1.popsugar-assets.com/files/thumbor/4UYUg9UKWqqhaFfElFDU9bKMRgQ/356x1145:1857x2646/fit-in/500x500/filters:format_auto-!!-:strip_icc-!!-/2019/09/04/970/n/1922398/cc3fa7b15d70381d55bd82.88203803_/i/Brad-Pitt.jpg"
   },
   {
     "id": 29,
     "name": "Bill Gates",
-    "headshot": ""
+    "headshot": "https://pbs.twimg.com/profile_images/1414439092373254147/JdS8yLGI_400x400.jpg"
   },
   {
     "id": 30,
     "name": "Steve Jobs",
-    "headshot": ""
+    "headshot": "https://image.cnbcfm.com/api/v1/image/105931782-1558695236322gettyimages-96211512.jpeg"
   },
   {
     "id": 31,
-    "name": "Stanley Kubrik",
-    "headshot": ""
+    "name": "Stanley Tucci",
+    "headshot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Stanley_Tucci_2017_Berlinale.jpg/640px-Stanley_Tucci_2017_Berlinale.jpg"
   },
   {
     "id": 32,
     "name": "Courtney Love",
-    "headshot": ""
+    "headshot": "https://www.geo.tv/assets/uploads/updates/2022-03-04/402845_7628991_updates.jpg"
   },
   {
     "id": 33,
     "name": "Kurt Cobain",
-    "headshot": ""
+    "headshot": "https://static.dw.com/image/17510698_303.jpg"
   },
   {
     "id": 34,
     "name": "Rupaul",
-    "headshot": ""
+    "headshot": "https://variety.com/wp-content/uploads/2020/05/rupauls-drag-race.jpg"
   },
   {
     "id": 35,
     "name": "Andy Warhol",
-    "headshot": ""
+    "headshot": "https://www.theloancompanies.com/wp-content/uploads/2020/11/Warhol.png"
   },
   {
     "id": 36,
     "name": "Martin Luther King",
-    "headshot": ""
+    "headshot": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Martin_Luther_King%2C_Jr..jpg/640px-Martin_Luther_King%2C_Jr..jpg"
   },
   {
     "id": 37,
-    "name": "Princess Diana",
-    "headshot": ""
+    "name": "Toni Collette",
+    "headshot": "https://tvline.com/wp-content/uploads/2020/02/toni-collette.jpg"
   },
   {
     "id": 38,
     "name": "Elvis Presley",
-    "headshot": ""
+    "headshot": "https://www.graceland.com/assets/2597/bio3_verticalresponsive.jpg"
   },
   {
     "id": 39,
     "name": "Marilyn Monroe",
-    "headshot": ""
+    "headshot": "https://ca-times.brightspotcdn.com/dims4/default/8959a2f/2147483647/strip/true/crop/2824x1883+0+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F42%2Ff2%2F1e337f9d4b56b49958000ba1f190%2Fmarilynmonroegentlemenpreferblondescrop.jpg"
   },
   {
     "id": 40,
     "name": "Pablo Picasso",
-    "headshot": ""
+    "headshot": "https://cdn.theatlantic.com/thumbor/r7FgHAuDD6mLuPACbJ0JowDpp7g=/4x231:2135x1430/960x540/media/img/2018/05/GettyImages_73939662-2/original.jpg"
   },
   {
     "id": 41,
     "name": "Nicole Kidman",
-    "headshot": ""
+    "headshot": "https://m.media-amazon.com/images/M/MV5BMTk1MjM5NDg4MF5BMl5BanBnXkFtZTcwNDg1OTQ4Nw@@._V1_UY1200_CR128,0,630,1200_AL_.jpg"
   },
   {
     "id": 42,
     "name": "Barack Obama",
-    "headshot": ""
+    "headshot": "https://cdn.britannica.com/89/164789-050-D6B5E2C7/Barack-Obama-2012.jpg"
   },
   {
     "id": 43,
     "name": "Tom Cruise",
-    "headshot": ""
+    "headshot": "https://www.syracuse.com/resizer/dUoWoPejCzJ6Drk0eev_D4dDY04=/450x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/expo.advance.net/img/06e64f4f5c/width2048/a87_gettyimages11263474481.jpeg"
   },
   {
     "id": 44,
     "name": "Tom Hanks",
-    "headshot": ""
+    "headshot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Tom_Hanks_TIFF_2019.jpg/640px-Tom_Hanks_TIFF_2019.jpg"
   },
   {
     "id": 45,
     "name": "Beyonce",
-    "headshot": ""
+    "headshot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Beyonc%C3%A9_at_The_Lion_King_European_Premiere_2019.png/640px-Beyonc%C3%A9_at_The_Lion_King_European_Premiere_2019.png"
   },
   {
     "id": 46,
     "name": "Julia Roberts",
-    "headshot": ""
+    "headshot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Julia_Roberts_2011_Shankbone_3.JPG/640px-Julia_Roberts_2011_Shankbone_3.JPG"
   },
   {
     "id": 47,
     "name": "Meryl Streep",
-    "headshot": ""
+    "headshot": "https://m.media-amazon.com/images/M/MV5BMTU4Mjk5MDExOF5BMl5BanBnXkFtZTcwOTU1MTMyMw@@._V1_UY1200_CR112,0,630,1200_AL_.jpg"
   },
   {
     "id": 48,
     "name": "Whoopi Goldberg",
-    "headshot": ""
+    "headshot": "https://cdn.cnn.com/cnnnext/dam/assets/220214152521-whoopi-goldberg-return-to-the-view-exlarge-169.jpg"
   },
   {
     "id": 49,
     "name": "Robin Williams",
-    "headshot": ""
+    "headshot": "https://upload.wikimedia.org/wikipedia/commons/5/59/Robin_Williams_Happy_Feet_premiere.jpg"
   },
   {
     "id": 50,
-    "name": "Nelson Mandela",
-    "headshot": ""
+    "name": "Jim Carrey",
+    "headshot": "https://www.goldenglobes.com/sites/default/files/styles/homepage_carousel/public/photo_gallery/jim_carrey_112204_lemony_snicket.jpg"
   }
 ]
