@@ -10,7 +10,7 @@ const Start = () => {
   return (
     <div className="start">
       <img src={logo} className="start__logo" alt="Name Game" />
-      <p className="start__intro">Try matching the WillowTree employee to their photo.</p>
+      <p className="start__intro">Try matching the celebrity to their photo.</p>
       <Button onClick={() => handleStartGameClick("practice")}>
         Practice Mode
       </Button>

@@ -2,21 +2,20 @@ import { useEffect, useCallback, useContext } from 'react';
 import { GameContext } from '../../context/GameContext';
 import './Game.css'
 import Header from '../../components/Header/Header';
-import Employee from '../../components/Employee/Employee';
+import Profile from '../../components/Profile/Profile';
 import Button from '../../components/Button/Button';
 import userIcon from '../../images/icon-user.png';
-import { getProfiles } from '../../services/profiles';
+import { getCelebrities } from '../../services/celebrities';
 import { useTimer } from 'react-timer-hook';
 import Timer from '../../components/Timer/Timer';
 import Countdown from '../../components/Countdown/Countdown';
-// const axios = require('axios');
 
 const Game = () => {
   const {
     mode,
-    employees, setEmployees,
-    employeeMatch, setEmployeeMatch,
-    selectedEmployee,
+    profiles, setProfiles,
+    profileMatch, setProfileMatch,
+    selectedProfile,
     total,
     correct,
     setTimerRunning,
@@ -50,43 +49,42 @@ const Game = () => {
     }
   });
 
-  // recursively get new employees
-  const getRandomEmployee = useCallback((response, randomEmployees) => {
+  // recursively get new profiles
+  const getRandomProfile = useCallback((response, randomProfiles) => {
     let rand = Math.floor(Math.random() * response.data.length);
-    let profileExists = randomEmployees.find(emp => emp.id === response.data[rand].id)
+    let profileExists = randomProfiles.find(profile => profile.id === response.data[rand].id)
     if(!profileExists) {
-      randomEmployees.push(response.data[rand]);
+      randomProfiles.push(response.data[rand]);
     } else {
-      getRandomEmployee(response, randomEmployees);
+      getRandomProfile(response, randomProfiles);
     }
   }, []);
 
-  // get employee profiles
+  // get profiles
   useEffect(() => {
-    if(!employees.length) {
-      const randomEmpCount = 6;
-      // axios.get('https://namegame.willowtreeapps.com/api/v1.0/profiles')
-      getProfiles()
+    if(!profiles.length) {
+      const randomProfileCount = 6;
+      getCelebrities()
         .then(function (response) {
-          // get random employees
-          const randomEmployees = [];
-          for(let i = 0; i < randomEmpCount; i++) {
-            getRandomEmployee(response, randomEmployees);
+          // get random profiles
+          const randomProfiles = [];
+          for(let i = 0; i < randomProfileCount; i++) {
+            getRandomProfile(response, randomProfiles);
           }
-          setEmployees(randomEmployees);
+          setProfiles(randomProfiles);
           // randomly set one as the "real" match
-          const match = Math.floor(Math.random() * randomEmployees.length);
-          setEmployeeMatch(match);
+          const match = Math.floor(Math.random() * randomProfiles.length);
+          setProfileMatch(match);
           // start timer
           setTimerRunning(true);
           // start game countdown
           if(!isCountdownRunning) startCountdown();
         });
     }    
-  }, [employees,
-    setEmployees,
-    setEmployeeMatch,
-    getRandomEmployee,
+  }, [profiles,
+    setProfiles,
+    setProfileMatch,
+    getRandomProfile,
     setTimerRunning,
     isCountdownRunning,
     startCountdown
@@ -108,23 +106,23 @@ const Game = () => {
         )}
         
         <p className="game__intro">
-          {employeeMatch !== null ? `Which one of these good looking photos is the real` : `Loading...`}
+          {profileMatch !== null ? `Which one of these photos is` : `Loading...`}
         </p>
 
-        {employeeMatch !== null && (
+        {profileMatch !== null && (
           <>
-            <p className="game__employee-name">
-              {employees[employeeMatch]?.firstName} {employees[employeeMatch]?.lastName}
+            <p className="game__profile-name">
+              {profiles[profileMatch]?.name}
             </p>
 
-            <div className="game__employees">
-              {employees && employees.map((emp, idx) => {
+            <div className="game__profiles">
+              {profiles && profiles.map((profile, idx) => {
                 return (
-                  <Employee
-                    // headshot={emp.headshot.url}
+                  <Profile
+                    // headshot={profile.headshot}
                     headshot={userIcon}
                     index={idx}
-                    key={emp.id}
+                    key={profile.id}
                   />
                 )
               })}
@@ -134,10 +132,10 @@ const Game = () => {
               disabled={
                 mode === "timed" ?
                   (matched ? false : true) :
-                  (selectedEmployee !== null ? false : true)
+                  (selectedProfile !== null ? false : true)
               }
               onClick={() => {
-                selectedEmployee !== null && btnClickHandler();
+                selectedProfile !== null && btnClickHandler();
               }}
             >
               {btnText}

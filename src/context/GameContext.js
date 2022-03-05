@@ -7,12 +7,12 @@ const GameProvider = ({ children }) => {
   const [mode, setMode] = useState(null);
   const [playing, setPlaying] = useState(false);
 
-  // employee profiles
-  const [employees, setEmployees] = useState([]);
-  const [employeeMatch, setEmployeeMatch] = useState(null);
+  // profiles
+  const [profiles, setProfiles] = useState([]);
+  const [profileMatch, setProfileMatch] = useState(null);
 
   // user selections / scores
-  const [selectedEmployee, setSelectedEmployee] = useState(null);
+  const [selectedProfile, setSelectedProfile] = useState(null);
   const [total, setTotal] = useState(0);
   const [correct, setCorrect] = useState(0);
   const [guessTimes, setGuessTimes] = useState([]);
@@ -27,10 +27,10 @@ const GameProvider = ({ children }) => {
     setPlaying(true);
   }
 
-  const handleEmployeeClick = (employee) => {
-    setSelectedEmployee(employee);
+  const handleProfileClick = (profile) => {
+    setSelectedProfile(profile);
 
-    if(employee === employeeMatch) {
+    if(profile === profileMatch) {
       setMatched(true);
       setCorrect(prev => prev + 1);
     }
@@ -38,7 +38,7 @@ const GameProvider = ({ children }) => {
     if(mode === "practice") {
       setTotal(prev => prev + 1);
     } else {
-      if(employee === employeeMatch) {
+      if(profile === profileMatch) {
         setTotal(prev => prev + 1);
         setGuessTimes(prevTimes => [...prevTimes, timer]);
         setTimerRunning(false);
@@ -47,9 +47,9 @@ const GameProvider = ({ children }) => {
   }
 
   const handleNextTurnClick = () => {
-    setEmployees([]);
-    setEmployeeMatch(null);
-    setSelectedEmployee(null);
+    setProfiles([]);
+    setProfileMatch(null);
+    setSelectedProfile(null);
     setTimer(0);
     setMatched(false);
   }
@@ -57,9 +57,9 @@ const GameProvider = ({ children }) => {
   const handleReturnToHome = () => {
     setMode(null);
     setPlaying(false);
-    setEmployees([]);
-    setEmployeeMatch(null);
-    setSelectedEmployee(null);
+    setProfiles([]);
+    setProfileMatch(null);
+    setSelectedProfile(null);
     setTotal(0);
     setCorrect(0);
     setGuessTimes([]);
@@ -76,9 +76,9 @@ const GameProvider = ({ children }) => {
     <GameContext.Provider value={{
       mode, setMode,
       playing, setPlaying,
-      employees, setEmployees,
-      employeeMatch, setEmployeeMatch,
-      selectedEmployee, setSelectedEmployee,
+      profiles, setProfiles,
+      profileMatch, setProfileMatch,
+      selectedProfile, setSelectedProfile,
       total, setTotal,
       correct, setCorrect,
       guessTimes, setGuessTimes,
@@ -86,7 +86,7 @@ const GameProvider = ({ children }) => {
       timer, setTimer,
       timerRunning, setTimerRunning,
       handleStartGameClick,
-      handleEmployeeClick,
+      handleProfileClick,
       handleNextTurnClick,
       handleReturnToHome,
       handleGameOverClick
