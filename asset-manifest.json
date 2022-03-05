@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/celeb-name-game/static/css/main.53c65dd2.css",
+    "main.js": "/celeb-name-game/static/js/main.932c186b.js",
+    "static/js/787.284baa7a.chunk.js": "/celeb-name-game/static/js/787.284baa7a.chunk.js",
+    "static/media/icon-user.png": "/celeb-name-game/static/media/icon-user.157f088b56f86d22066e.png",
+    "static/media/logo-name-game.svg": "/celeb-name-game/static/media/logo-name-game.0180313e813ed5028defd3dae8dea831.svg",
+    "static/media/logo-header.svg": "/celeb-name-game/static/media/logo-header.de6d2aef8f8b1092190dfcb42a13217a.svg",
+    "static/media/congrats-face.svg": "/celeb-name-game/static/media/congrats-face.9a1a7c185b06623c93a09f92e49045bf.svg",
+    "index.html": "/celeb-name-game/index.html",
+    "static/media/congrats-star.svg": "/celeb-name-game/static/media/congrats-star.4998a70577d1a6ad262a0f5a4d6c83fe.svg",
+    "static/media/congrats-square.svg": "/celeb-name-game/static/media/congrats-square.42b58fbbc814dc9715cbbd880c1716b4.svg",
+    "static/media/icon-left-caret.svg": "/celeb-name-game/static/media/icon-left-caret.b30a5093b64f2b6557a8c3134f304f6d.svg",
+    "static/media/congrats-triangle.svg": "/celeb-name-game/static/media/congrats-triangle.d89e390fa1429c4f4cc738a64c9da131.svg",
+    "main.53c65dd2.css.map": "/celeb-name-game/static/css/main.53c65dd2.css.map",
+    "main.932c186b.js.map": "/celeb-name-game/static/js/main.932c186b.js.map",
+    "787.284baa7a.chunk.js.map": "/celeb-name-game/static/js/787.284baa7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53c65dd2.css",
+    "static/js/main.932c186b.js"
+  ]
+}
