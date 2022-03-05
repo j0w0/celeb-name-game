@@ -2,127 +2,127 @@
   {
     "id": 1,
     "name": "Miley Cyrus",
-    "headshot": "string"
+    "headshot": "https://imageio.forbes.com/specials-images/imageserve/61d068989802259093ce8cd2/Tom-Ford-AW20-Show---Arrivals/960x0.jpg?fit=bounds&format=jpg&width=960"
   },
   {
     "id": 2,
     "name": "Kim Kardashian",
-    "headshot": "string"
+    "headshot": "https://media.allure.com/photos/5e2355246477b300080bf752/master/pass/kim-k-skin-lede.jpg"
   },
   {
     "id": 3,
     "name": "Kanye West",
-    "headshot": "string"
+    "headshot": "https://img.huffingtonpost.com/asset/583f8a501700002600e7d295.jpeg?cache=9a9GWyLE2l&ops=1778_1000?cache=9a9GWyLE2l&ops=1778_1000"
   },
   {
     "id": 4,
     "name": "Margaret Thatcher",
-    "headshot": "string"
+    "headshot": "https://www.biography.com/.image/t_share/MTc2Njk4NDEwOTMyMzgxNjc1/margaret-thatcher_500x500_gettyimages-108932085.jpg"
   },
   {
     "id": 5,
     "name": "George Washington",
-    "headshot": "string"
+    "headshot": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/1200px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
   },
   {
     "id": 6,
     "name": "Ghandi",
-    "headshot": "string"
+    "headshot": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg"
   },
   {
     "id": 7,
     "name": "Justin Beiber",
-    "headshot": "string"
+    "headshot": "https://ichef.bbci.co.uk/news/976/cpsprodpb/6B59/production/_113018472_getty_1.jpg"
   },
   {
     "id": 8,
     "name": "Lady Gaga",
-    "headshot": "string"
+    "headshot": "https://www.varietyinsight.com/images/honoree/Lady_Gaga.png"
   },
   {
     "id": 9,
     "name": "Katy Perry",
-    "headshot": "string"
+    "headshot": "https://m.media-amazon.com/images/M/MV5BMjE4MDI3NDI2Nl5BMl5BanBnXkFtZTcwNjE5OTQwOA@@._V1_UY1200_CR106,0,630,1200_AL_.jpg"
   },
   {
     "id": 10,
     "name": "Justin Timberlake",
-    "headshot": "string"
+    "headshot": "https://m.media-amazon.com/images/M/MV5BMTUwMjE1MjU2N15BMl5BanBnXkFtZTcwNjk0ODY1NA@@._V1_.jpg"
   },
   {
     "id": 11,
     "name": "Jay Leno",
-    "headshot": "string"
+    "headshot": "https://deadline.com/wp-content/uploads/2020/09/Jay-Leno-High-Res.jpg"
   },
   {
     "id": 12,
     "name": "David Letterman",
-    "headshot": "string"
+    "headshot": "https://m.media-amazon.com/images/M/MV5BMTI5ODMzOTY4MV5BMl5BanBnXkFtZTcwNzU1MjM0Mw@@._V1_UY1200_CR165,0,630,1200_AL_.jpg"
   },
   {
     "id": 13,
     "name": "Amy Poehler",
-    "headshot": "string"
+    "headshot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Amy_Poehler_%288894155873%29_%28cropped%29.jpg/640px-Amy_Poehler_%288894155873%29_%28cropped%29.jpg"
   },
   {
     "id": 14,
     "name": "Tina Fey",
-    "headshot": "string"
+    "headshot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Tina_Fey_Muppets_Most_Wanted_Premiere_%28cropped_2%29.jpg/640px-Tina_Fey_Muppets_Most_Wanted_Premiere_%28cropped_2%29.jpg"
   },
   {
     "id": 15,
     "name": "Jennifer Aniston",
-    "headshot": "string"
+    "headshot": "https://media.npr.org/assets/img/2012/03/30/stand_alone_custom-ddf02244d26f8d0d7324204579f7105282a2d6e8-s1100-c50.jpg"
   },
   {
     "id": 16,
     "name": "Johnny Depp",
-    "headshot": "string"
+    "headshot": "https://m.media-amazon.com/images/M/MV5BMTM0ODU5Nzk2OV5BMl5BanBnXkFtZTcwMzI2ODgyNQ@@._V1_UY1200_CR106,0,630,1200_AL_.jpg"
   },
   {
     "id": 17,
     "name": "Britney Spears",
-    "headshot": "string"
+    "headshot": "https://pyxis.nymag.com/v1/imgs/4b2/919/e3ebd3f1decebb75ee3fbaa0148d1c5937-britney-spears.rsquare.w700.jpg"
   },
   {
     "id": 18,
     "name": "Paris Hilton",
-    "headshot": "string"
+    "headshot": "https://i.scdn.co/image/ab6761610000e5eb70cef1072dc6918319273a9a"
   },
   {
     "id": 19,
     "name": "Hugh Jackman",
-    "headshot": "string"
+    "headshot": "https://static.wikia.nocookie.net/riseoftheguardians/images/6/6b/Hugh-Jackman.jpg"
   },
   {
     "id": 20,
     "name": "Daniel Radcliffe",
-    "headshot": "string"
+    "headshot": "https://m.media-amazon.com/images/M/MV5BZmE0NzNiNzQtYTVlYS00MjljLWE4MTgtYzYxNjU2NjZkM2M4XkEyXkFqcGdeQXVyNjY5NDgzNjQ@._V1_UY1200_CR85,0,630,1200_AL_.jpg"
   },
   {
     "id": 21,
     "name": "David Beckham",
-    "headshot": "string"
+    "headshot": "https://upload.wikimedia.org/wikipedia/commons/0/0f/%C3%80lex_Roig_Mangues.jpg"
   },
   {
     "id": 22,
     "name": "Madonna",
-    "headshot": "string"
+    "headshot": "https://www.hollywoodreporter.com/wp-content/uploads/2021/10/GettyImages-494171282.jpg"
   },
   {
     "id": 23,
     "name": "Eminem",
-    "headshot": "string"
+    "headshot": "https://www.rollingstone.com/wp-content/uploads/2015/09/EminemLead.jpg"
   },
   {
     "id": 24,
     "name": "Matt Damon",
-    "headshot": "string"
+    "headshot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Matt_Damon_TIFF_2015.jpg/640px-Matt_Damon_TIFF_2015.jpg"
   },
   {
     "id": 25,
     "name": "Jack Nicholson",
-    "headshot": "string"
+    "headshot": "https://static.tvtropes.org/pmwiki/pub/images/jack_nicholson.jpg"
   },
   {
     "id": 26,
